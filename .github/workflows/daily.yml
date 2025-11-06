@@ -2,9 +2,9 @@ name: Auto-Vocab-Daily
 
 on:
   schedule:
-    - cron: '0 19 * * *'   # JST04:00 → パターン①（会話なし）
-    - cron: '0 9  * * *'   # JST18:00 → パターン②（最後に会話1ブロック）
-    - cron: '0 15 * * *'   # JST00:00 → パターン③（毎ラウンド会話）
+    #- cron: '0 19 * * *'   # JST04:00 → パターン①（会話なし）
+    #- cron: '0 9  * * *'   # JST18:00 → パターン②（最後に会話1ブロック）
+    #- cron: '0 15 * * *'   # JST00:00 → パターン③（毎ラウンド会話）
   workflow_dispatch:
     inputs:
       mode:
